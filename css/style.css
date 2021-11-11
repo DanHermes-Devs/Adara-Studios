@@ -39,6 +39,10 @@ body {
     background: #D81B5E;
 }
 
+#btn-registro {
+    width: 25%;
+}
+
 .image-cover {
     background-image: url(../images/cover-crea.png);
     background-repeat: no-repeat;
@@ -47,4 +51,52 @@ body {
 
 .bg-secondary {
     background-color: #272C30!important;
+}
+
+#crea form {
+    width: 75%;
+}
+
+/*=============================================
+TABLET HORIZONTAL (LG revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+}
+
+/*=============================================
+TABLET VERTICAL (MD revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+}
+
+/*=============================================
+MÓVIL HORIZONTAL (SM revisamos en 576px)
+=============================================*/
+
+@media (max-width:767px) and (min-width:576px){
+
+}
+
+/*=============================================
+MOVIL VERTICAL (revisamos en 320px)
+=============================================*/
+
+@media (max-width:575px){
+    #crea form {
+        width: 100%;
+    }
+
+    .image-cover {
+        background-color: #D81B5E;
+        background-image: none;
+        color: #fff;
+    }
+
+    #btn-registro {
+        width: 100%;
+    }
 }

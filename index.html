@@ -16,6 +16,7 @@
 
 <body>
 
+    <!-- Navegacion -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <!-- position-fixed w-100 -->
         <div class="container-xxl">
@@ -47,21 +48,28 @@
             </div>
         </div>
     </nav>
+    <!-- Fin Navegacion -->
 
-    <section class="container-xxl py- py-md-0">
+    <!-- Seccion Hero -->
+    <section class="container-xxl py-5 py-md-0">
         <div class="row vh-100 align-items-center">
             <div class="col-12 col-md-6">
-                <h2 class="display-2 fw-bold">Crea tu <br> portafolio</h2>
-                <p class="my-3 lh-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla accusamus quasi
+                <!-- Version Desktop -->
+                <h2 class="display-2 fw-bold d-none d-md-block">Crea tu <br> portafolio</h2>
+
+                <!-- Version Movil -->
+                <h2 class="display-2 fw-bold d-md-none d-block text-center text-md-start">Crea tu portafolio</h2>
+                <p class="my-3 lh-lg text-center text-md-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla accusamus quasi
                     tenetur nisi corporis fuga, optio ipsa ea ipsam numquam molestias eligendi maxime tempora tempore
                     praesentium obcaecati quaerat suscipit? Asperiores?</p>
-                <a class="btn btn-primary" href="#">Registrate</a>
+                <a class="btn btn-primary" id="btn-registro" href="#">Registrate</a>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 py-5">
                 <img src="images/globo_aerostatico.svg" class="img-fluid" alt="Imagen de Globo Aerostatico">
             </div>
         </div>
     </section>
+    <!-- Fin Seccion Hero -->
 
     <!-- Seccion Colaboraciones -->
     <section id="colaboraciones" class="my-5 py-5">
@@ -104,13 +112,13 @@
                 <h2 class="fw-bold text-center display-5">Los 3 pilares de toda empresa</h2>
             </div>
 
-            <div class="row my-5 py-5">
-                <div class="col-12 col-md-6 text-center">
+            <div class="row my-3 py-3 my-md-5 py-md-5">
+                <div class="col-12 col-md-6 text-center order-2 order-md-1">
                     <img src="images/los-tres-pilares.png" class="img-fluid"
                         alt="Imagen de los 3 pilares de toda empresa">
                 </div>
-                <div class="col-12 col-md-6">
-                    <div class="seccion-texto my-5">
+                <div class="col-12 col-md-6 order-0 order-md-2 text-center text-md-start">
+                    <div class="seccion-texto my-3 my-md-5">
                         <p class="fw-bold fs-5"> - Desarrollo Web</p>
                         <p class="fs-6 lh-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae,
                             deserunt labore. Sequi a magni suscipit iure, odio aliquam dicta eius. Doloremque tenetur
@@ -138,10 +146,10 @@
     <section id="crea" class="bg-complementary">
         <div class="image-cover my-5 py-5">
             <div class="container">
-                <div class="row justify-content-end vh-50 align-items-center">
+                <div class="row justify-content-end vh-50 align-items-center" id="fondo-circles">
                     <div class="col-12 col-md-6">
-                        <h2 class="text-start fw-bold">Crea con nosotros</h2>
-                        <p class="mt-4 lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam
+                        <h2 class="text-start fw-bold text-center text-md-start">Crea con nosotros</h2>
+                        <p class="mt-4 lh-lg text-center text-md-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam
                             orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing
                             vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</p>
                     </div>
@@ -152,13 +160,13 @@
     <!-- Fin Seccion Crea con nosotros -->
 
     <!-- Seccion Objetivos -->
-    <section id="objetivos">
+    <section id="objetivos" class="my-5 py-5">
         <div class="container">
             <div class="row vh-100 align-items-center">
                 <div class="col-12 col-md-6">
-                    <h2 class="fw-bold text-break">Type your project title here. <br> It can go for two lines as well.
+                    <h2 class="fw-bold text-break text-center text-md-start">Type your project title here. <br> It can go for two lines as well.
                     </h2>
-                    <p class="mt-4 lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci
+                    <p class="mt-4 lh-lg text-center text-md-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci
                         pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate.
                         Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</p>
                 </div>
@@ -175,7 +183,7 @@
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-md-6">
-                    <form action="#" class="w-75 border-16 bg-secondary p-4">
+                    <form action="#" class="border-16 bg-secondary p-4 mb-5 mb-md-0">
                         <h2 class="text-white text-center py-4">Registrate</h2>
                         <div class="mb-3">
                             <input type="email" class="form-control" id="exampleFormControlInput1"
@@ -216,8 +224,8 @@
                     </form>
                 </div>
                 <div class="col-12 col-md-6">
-                    <h2 class="text-start fw-bold display-5 text-white">Únete y se parte del equipo</h2>
-                    <p class="mt-4 lh-lg text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam
+                    <h2 class="text-center text-md-start fw-bold display-5 text-white">Únete y se parte del equipo</h2>
+                    <p class="text-center text-md-start mt-4 lh-lg text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam
                         orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing
                         vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</p>
                 </div>
@@ -236,7 +244,7 @@
                     </a>
                 </div>
                 <div class="col-12 my-5">
-                    <ul class="d-flex justify-content-center flex-column flex-md-row align-items-center">
+                    <ul class="d-flex justify-content-center p-0 flex-column flex-md-row align-items-center">
                         <li class="nav-item">
                             <a class="nav-link text-white" aria-current="page" href="#">Inicio</a>
                         </li>
