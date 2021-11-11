@@ -20,6 +20,10 @@ body {
     height: 50vh;
 }
 
+.w-60 {
+    width: 60%!important;
+}
+
 .border-16 {
     border-radius: 16px;
 }
