@@ -88,7 +88,8 @@ MOVIL VERTICAL (revisamos en 320px)
 
 @media (max-width:575px){
     #crea form {
-        width: 100%;
+        width: 100%!important;
+        margin: 1rem 0rem 4rem 0;
     }
 
     .image-cover {
