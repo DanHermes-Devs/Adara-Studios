@@ -54,7 +54,8 @@ body {
 }
 
 #crea form {
-    width: 75%;
+    width: 75%!important;
+    padding: 4rem 2rem!important;
 }
 
 /*=============================================
