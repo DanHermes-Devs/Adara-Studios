@@ -105,4 +105,8 @@ MOVIL VERTICAL (revisamos en 320px)
     #btn-registro {
         width: 100%;
     }
+
+    .vh-mobile-100 {
+        height: auto!important;
+    }
 }

@@ -170,7 +170,7 @@
     <!-- Seccion Objetivos -->
     <section id="objetivos" class="my-5 py-5">
         <div class="container">
-            <div class="row vh-100 align-items-center">
+            <div class="row vh-100 vh-mobile-100 align-items-center">
                 <div class="col-12 col-md-6">
                     <h2 class="fw-bold text-break text-md-start wow animate__animated animate__fadeInUp" data-wow-delay=".5s">Type your project title here. <br> It can go for two
                         lines as well.
@@ -181,7 +181,7 @@
                         Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</p>
                 </div>
                 <div class="col-12 col-md-6 text-center position-relative">
-                    <img src="images/iphone.png" class="img-fluid w-50 position-absolute" id="iphone" alt="Iphone con Logo Adara Studios">
+                    <img src="images/iphone.png" class="img-fluid w-50 position-absolute d-none d-md-block" id="iphone" alt="Iphone con Logo Adara Studios">
                 </div>
             </div>
         </div>
@@ -192,7 +192,7 @@
     <section id="crea" class="bg-complementary-second py-5">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-12 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
+                <div class="col-12 col-md-6 wow animate__animated animate__fadeInUp order-2 order-md-1" data-wow-delay=".5s">
                     <script src="https://sheetdb.io/s/f/146al9ywjfjtb.js"></script>
                     <style>
                         /* Formulario */
@@ -227,44 +227,8 @@
                             border-radius: 16px;
                         }
                     </style>
-                    <form action="#" class="border-16 bg-secondary p-4 mb-5 mb-md-0 d-none">
-                        <h2 class="text-white text-center py-4">Registrate</h2>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="Tu Correo">
-                        </div>
-                        <div class="mb-3">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Tu Descripción"
-                                rows="5" cols="20"></textarea>
-                        </div>
-                        <!-- Areas -->
-                        <div class="areas">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="area" id="programacion" checked>
-                                <label class="form-check-label text-white" for="programacion">
-                                    Desarrollo Web
-                                </label>
-                            </div>
-
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="area" id="mercadotecnia">
-                                <label class="form-check-label text-white" for="mercadotecnia">
-                                    Mercadotecnía
-                                </label>
-                            </div>
-
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="area" id="diseño">
-                                <label class="form-check-label text-white" for="diseño">
-                                    Diseño
-                                </label>
-                            </div>
-                        </div>
-                        <!-- Fin Areas -->
-                        <button type="submit" class="btn btn-primary d-block w-100">Registrate</button>
-                    </form>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 order-1 order-md-2">
                     <h2 class="text-md-start fw-bold display-5 text-white wow animate__animated animate__fadeInUp" data-wow-delay=".5s">Únete y se parte del equipo</h2>
                     <p class="text-md-start mt-4 lh-lg text-white wow animate__animated animate__fadeInUp" data-wow-delay=".5s">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Condimentum diam
