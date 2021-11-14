@@ -113,4 +113,8 @@ MOVIL VERTICAL (revisamos en 320px)
     .vh-mobile-100 {
         height: auto!important;
     }
+
+    .w-15 {
+        width: 9%;
+    }
 }
