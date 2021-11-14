@@ -66,6 +66,25 @@ body {
     width: 9%;
 }
 
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #272c30;
+    border-color: #272c30;
+}
+
+.btn-primary:focus,
+.btn-primary:active:focus {
+    color: #fff;
+    background-color: #272c30;
+    border-color: #272c30;
+    box-shadow: none;
+}
+
 /*=============================================
 TABLET HORIZONTAL (LG revisamos en 1024px)
 =============================================*/
