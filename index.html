@@ -23,7 +23,7 @@
 <body>
 
     <!-- Navegacion -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-body position-fixed w-100">
         <!-- position-fixed w-100 -->
         <div class="container-xxl">
             <a class="navbar-brand" href="#">
@@ -57,7 +57,7 @@
     <!-- Fin Navegacion -->
 
     <!-- Seccion Hero -->
-    <section class="container-xxl py-5 py-md-0">
+    <section class="container-xxl py-5 py-md-0" id="hero__section">
         <div class="row vh-100 align-items-center">
             <div class="col-12 col-md-6">
                 <!-- Version Desktop -->
@@ -69,7 +69,7 @@
                     accusamus quasi
                     tenetur nisi corporis fuga, optio ipsa ea ipsam numquam molestias eligendi maxime tempora tempore
                     praesentium obcaecati quaerat suscipit? Asperiores?</p>
-                <a class="btn btn-primary animate__animated animate__fadeInUp" id="btn-registro" href="#">Registrate</a>
+                <a class="btn btn-primary animate__animated animate__fadeInUp" id="btn-registro" href="#formulario_registro"><span>Registrate</span></a>
             </div>
             <div class="col-12 col-md-6 py-5">
                 <img src="images/globo_aerostatico.svg" loading="lazy" class="img-fluid animate__animated animate__fadeInUp" alt="Imagen de Globo Aerostatico">
@@ -229,7 +229,7 @@
     <!-- Fin Seccion tecnologias a trabajar -->
 
     <!-- Seccion Formulario de registro -->
-    <section id="crea" class="bg-complementary-second py-5">
+    <section id="formulario_registro" class="bg-complementary-second py-5">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-md-6 wow animate__animated animate__fadeInUp order-2 order-md-1" data-wow-delay=".5s">
@@ -240,6 +240,8 @@
                             background: #272c30 !important;
                             color: rgb(255 255 255) !important;
                             border-radius: 16px !important;
+                            padding: 3rem!important;
+                            width: 80%!important;
                         }
 
                         .form_ut3frh__form_input_submit {
