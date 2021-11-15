@@ -243,6 +243,10 @@ MOVIL VERTICAL (revisamos en 320px)
     width: 20%;
   }
 
+  .vh-50 {
+    height: auto;
+  }
+
   #hero__section {
       padding-top: 5rem!important;
   }
